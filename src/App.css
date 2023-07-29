@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.star-header{
+  text-align: center;
+  color: #053d47;
+  padding: 40px 90px 40px 0;
+  
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container > div {
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  justify-items: center;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #053d47;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+  padding-top: 60px;
+}
+.star-spacing {
+  margin: 0 100px;
+  padding-left: 80px;
+}
