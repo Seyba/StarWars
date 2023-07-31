@@ -37,6 +37,7 @@
   }
 }
 
+
 .star-header{
   text-align: center;
   color: #053d47;
@@ -66,3 +67,14 @@
   margin: 0 100px;
   padding-left: 80px;
 }
+.header-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+  animation-name: header-animate;
+  animation-duration: 3s;
+}
+ @keyframes header-animate {
+  0% {opacity: 0; transform: scale(0.50);}
+  100% {opacity: 1; transform: scale(1);}
+  
+} 

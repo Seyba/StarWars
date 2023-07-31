@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="star-spacing">
       <div className="star-header">
-        <h1>STAR WARS STARSHIPS</h1>
+        <h1 className="header-animate">STAR WARS STARSHIPS</h1>
       </div>
       <StarShipsList 
         starShips = {starShips}
